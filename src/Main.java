@@ -10,7 +10,13 @@ public class Main {
         curso1.setDescricao("do basico ao avançado");
         curso1.setCargaHoraria(40);
 
+        Curso curso2 = new Curso();
+        curso2.setTitulo("Curso Python");
+        curso2.setDescricao("programação para crianças");
+        curso2.setCargaHoraria(10);
+
         System.out.println(curso1);
+        System.out.println(curso2);
 
         Mentoria mentoria1 = new Mentoria();
         mentoria1.setTitulo("Mentoria de Java");
